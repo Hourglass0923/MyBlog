@@ -1,0 +1,53 @@
+.flex-items {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-content: left;
+    height: 100%;
+    max-width: 960px;
+}
+
+.flex-items h4,p {
+    padding: 10px;
+}
+
+.btn {
+    cursor:pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color:#fff;
+    background-color: #474853;
+    border:none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.redirect {
+    z-index: 99;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+.leave {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.return {
+    z-index: 99;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

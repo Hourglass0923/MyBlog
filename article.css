@@ -1,0 +1,13 @@
+article {
+	padding: 0.5in 0;
+	display: grid;
+	grid-template-columns: 1fr [start] 0.5in  1.25in 5in 1.25in  0.5in [end] 1fr;
+
+	background: linear-gradient(hsla(0, 0%, 0%, 0.137), white 6.55rem);
+}
+
+article * { grid-column: start / end; } 
+
+@media (max-width: 8.5in) {
+	article { grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr; }
+}

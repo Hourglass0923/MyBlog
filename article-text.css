@@ -1,0 +1,41 @@
+a {
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px black solid;
+}
+
+time {
+    margin: 20px 0;
+}
+
+li {
+    padding: 3px;
+}
+
+h4, p { margin-bottom: 2.4rem; } /*consistant break instead of based on the font*/
+
+h1 { font: 400 2.0rem/1.2 "Roboto"; }
+h2 { font: 400 1rem/1.2 "Roboto"; }
+time { font: 400 1rem/1.2 "Roboto"; color: hsl(000, 0%, 20%);}
+h3 { font: 400 1rem/1.2 "Roboto"; }
+h4 { font: 700 1rem/1.2 "Roboto"; }
+h4 {
+    margin: 1.6rem auto;
+}
+p { font: 400 1rem/1.5 "Roboto"; }
+p {
+    margin-bottom: 0.5rem;
+}
+.end-line {
+    display: flex;
+    margin: 100px auto;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Mobile */
+@media (max-width: 8.5in) { :root { font-size: 16px ; } }
