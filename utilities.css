@@ -23,6 +23,7 @@
 }
 
 .btn:hover {
+    background: #2d2e35;
     color: black;
 }
 
